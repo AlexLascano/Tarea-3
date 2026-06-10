@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="581.0" style="-fx-background-color: #1E293B;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.navegacionforumulariosfx.CajeroController">
+    <children>
+        <Label layoutX="55.0" layoutY="100.0" text="Cliente:" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font></Label>
+        <Label layoutX="55.0" layoutY="155.0" text="Cédula:" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font></Label>
+        <Label layoutX="56.0" layoutY="205.0" text="Dirección:" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font></Label>
+        <Label layoutX="155.0" layoutY="25.0" text="REGISTRO DE CLIENTE" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="26.0" />
+         </font></Label>
+        <Label layoutX="58.0" layoutY="253.0" text="Telefono:" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font></Label>
+        <TextField fx:id="txtProducto" layoutX="191.0" layoutY="160.0" />
+        <TextField fx:id="txtCedula" layoutX="191.0" layoutY="105.0" />
+        <TextField fx:id="txtDireccion" layoutX="191.0" layoutY="209.0" />
+        <TextField fx:id="txtTelefono" layoutX="191.0" layoutY="258.0" />
+      <ComboBox fx:id="cmbProvincia" layoutX="408.0" layoutY="160.0" prefWidth="150.0" />
+
+    </children>
+</AnchorPane>
